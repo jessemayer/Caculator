@@ -43,7 +43,16 @@ body {
     justify-content: space-around;
     flex-direction: column;
     padding: 10px;
-    color: white;
+    
     word-wrap: break-word;
     word-break: break-all;
+}
+
+.output .pre-input {
+    color: rgb(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+.output .current-input {
+    color: rgb(255, 255, 255, .75);
+    font-size: 2.5rem;
 }
